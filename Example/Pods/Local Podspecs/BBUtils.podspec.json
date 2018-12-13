@@ -1,0 +1,22 @@
+{
+  "name": "BBUtils",
+  "version": "0.1.0",
+  "summary": "A short description of BBUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/biaobingWang/BBUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "biaobingWang": "786993352@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/biaobingWang/BBUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BBUtils/Classes/**/*"
+}
