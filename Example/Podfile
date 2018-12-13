@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BBUtils_Example' do
+  pod 'BBUtils', :path => '../'
+
+  target 'BBUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
