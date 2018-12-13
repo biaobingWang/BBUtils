@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1E3AFEB373C2E2E8F929D27B4C37A345 /* Pods-BBUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8372C7FF5F3035BC61C00F133EB546 /* Pods-BBUtils_Tests-dummy.m */; };
+		337E137F21C23E8700FBFE74 /* NSString+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 337E137D21C23E8700FBFE74 /* NSString+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		337E138021C23E8700FBFE74 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 337E137E21C23E8700FBFE74 /* NSString+Base64.m */; };
 		378ADDBE1C829C1F32ACFF9EA7067CB8 /* BBUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 305069D962A7BA66F4B3F4C65375CDB3 /* BBUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D2CA3ACCBF6350C5CB627F9B8933DB7 /* Pods-BBUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7C21476FB833F8E769F8E57BEBCBCD /* Pods-BBUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62086AE99F11C01A73A810E2AC81553E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7E76E0351F647D106A18162E1B92DC /* ReplaceMe.m */; };
 		6D9C9B05A8A3E9C357B03CAA6935F001 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		872605126C9E0AD4ED3C26A7D3403005 /* Pods-BBUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A03AD7947AF245DAAF2D02F453CA057 /* Pods-BBUtils_Example-dummy.m */; };
 		B9DC8A78C261FCBC0D689F0781DCEB5C /* BBUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF33D52B9030ECC3365C70A6F67E04 /* BBUtils-dummy.m */; };
@@ -42,6 +43,8 @@
 		134F7D63514D27B67C8D0E9321051517 /* Pods-BBUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1FA6CD14A4B5CDD59048793AA7DE0B96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		305069D962A7BA66F4B3F4C65375CDB3 /* BBUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBUtils-umbrella.h"; sourceTree = "<group>"; };
+		337E137D21C23E8700FBFE74 /* NSString+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+Base64.h"; path = "BBUtils/Classes/NSString+Base64.h"; sourceTree = "<group>"; };
+		337E137E21C23E8700FBFE74 /* NSString+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+Base64.m"; path = "BBUtils/Classes/NSString+Base64.m"; sourceTree = "<group>"; };
 		389CD169D054E6BC1B75FE32A13C4DA8 /* Pods-BBUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBUtils_Example-resources.sh"; sourceTree = "<group>"; };
 		475C19556D0376013C6872A8244B5353 /* BBUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BBUtils.modulemap; sourceTree = "<group>"; };
 		4E759885C9632502992E8A064C87AA3E /* Pods-BBUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +70,6 @@
 		C70FBF06F22B98A817DB00E0B3F091C2 /* Pods-BBUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB26187CCA242F03ECAF0429B7122776 /* Pods-BBUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BBUtils_Example.modulemap"; sourceTree = "<group>"; };
 		D13DD2C59EAAE4ECF74DBCE0CBEA6404 /* Pods-BBUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DF7E76E0351F647D106A18162E1B92DC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = BBUtils/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		E3071CD35F740E5567D53B5DFF4B7222 /* Pods-BBUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E404D90DD7CD1DA3364A070F1A274902 /* BBUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBUtils-prefix.pch"; sourceTree = "<group>"; };
 		EB789C75B072D6FD6DE4192A6A4BACBB /* Pods-BBUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -130,7 +132,8 @@
 		61DBF56F12120AF61665EDD82FED2DAB /* BBUtils */ = {
 			isa = PBXGroup;
 			children = (
-				DF7E76E0351F647D106A18162E1B92DC /* ReplaceMe.m */,
+				337E137D21C23E8700FBFE74 /* NSString+Base64.h */,
+				337E137E21C23E8700FBFE74 /* NSString+Base64.m */,
 				CC8A476C8F3D65F695485143BA17DE07 /* Pod */,
 				908BC582B4B8D04A4AF98D974397A858 /* Support Files */,
 			);
@@ -235,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				378ADDBE1C829C1F32ACFF9EA7067CB8 /* BBUtils-umbrella.h in Headers */,
+				337E137F21C23E8700FBFE74 /* NSString+Base64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,8 +347,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				337E138021C23E8700FBFE74 /* NSString+Base64.m in Sources */,
 				B9DC8A78C261FCBC0D689F0781DCEB5C /* BBUtils-dummy.m in Sources */,
-				62086AE99F11C01A73A810E2AC81553E /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

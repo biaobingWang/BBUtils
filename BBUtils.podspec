@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BBUtils'
   s.version          = '0.1.0'
-  s.summary          = 'wangbiaobing 的常用文件.'
+  s.summary          = 'wangbiaobing的常用文件.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "收集一些常用的文件，方便自己y去使用"
+  s.description      = "收集一些常用的文件，方便自己去使用,收集一些常用的文件，方便自己去使用"
 
   s.homepage         = 'https://github.com/biaobingWang/BBUtils'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
