@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "NSString+Base64.h"
+#import "NSString+Cryto.h"
 
 FOUNDATION_EXPORT double BBUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char BBUtilsVersionString[];

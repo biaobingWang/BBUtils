@@ -1,5 +1,5 @@
 PODS:
-  - BBUtils (0.1.0)
+  - BBUtils (0.1.2)
 
 DEPENDENCIES:
   - BBUtils (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BBUtils: 5b6622502cb3bd650cc88829fec2c2f7fa8bc501
+  BBUtils: 7dc744c5f43a75abc56da829ce43485986f3ce84
 
 PODFILE CHECKSUM: fb921ae016e4e414f084eeceb3168fa1a05a1ae8
 
