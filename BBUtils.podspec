@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BBUtils'
-  s.version          = '0.1.1'
-  s.summary          = 'wangbiaobing的常用文件.'
+  s.version          = '0.1.2'
+  s.summary          = 'wangbiaobing新建测试库，目前只有增加了字符串的加解密.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

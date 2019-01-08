@@ -229,7 +229,6 @@
     for (int i = 0; i < length; i++) {
         [strM appendFormat:@"%02x", bytes[i]];
     }
-    
     return [strM copy];
 }
 
